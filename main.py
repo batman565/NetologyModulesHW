@@ -1,7 +1,7 @@
 from datetime import datetime
 from numpy import sin
-from people.people import get_employees
-from salary.salary import calculate_salary
+from application.db.people import get_employees
+from application.salary import calculate_salary
 
 
 if __name__ == "__main__":
